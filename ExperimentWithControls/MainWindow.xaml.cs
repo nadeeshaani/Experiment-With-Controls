@@ -24,5 +24,22 @@ namespace ExperimentWithControls
         {
             InitializeComponent();
         }
+
+        private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+        }
+
+        private void numberTextBox_TextChanged(object sender, TextChangedEventArgs e)
+        {
+            // Set the number in text box to be same as number in text block
+            number.Text = numberTextBox.Text;
+        }
+
+        private void numberTextBox_PreviewTextInput(object sender, TextCompositionEventArgs e)
+        {
+            // this event handler only allows number input in the textbox field
+            e.Handled = !int.TryParse(e.Text, out int result);
+        }
     }
 }
