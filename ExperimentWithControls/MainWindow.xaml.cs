@@ -41,5 +41,6 @@ namespace ExperimentWithControls
             // this event handler only allows number input in the textbox field
             e.Handled = !int.TryParse(e.Text, out int result);
         }
+
     }
 }
