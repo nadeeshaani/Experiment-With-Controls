@@ -1,8 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\ExperimentWithControls"
+    "\\ExperimentWithControls",
+    "\\ExperimentWithControls\\bin",
+    "\\ExperimentWithControls\\obj"
   ],
-  "SelectedNode": "\\ExperimentWithControls\\App.xaml.cs",
+  "SelectedNode": "\\ExperimentWithControls\\MainWindow.xaml.cs",
   "PreviewInSolutionExplorer": false
 }

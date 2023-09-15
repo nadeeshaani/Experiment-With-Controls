@@ -46,6 +46,7 @@
 			<ListBoxItem Content="4"/>
 			<ListBoxItem Content="5"/>
 		</ComboBox>
+		<Slider x:Name="smallSlider" HorizontalAlignment="Left" Margin="10,10,0,0" Grid.Row="2" VerticalAlignment="Top" Height="19" Width="133" AutoToolTipPlacement="TopLeft" Maximum="5" Minimum="1" ValueChanged="smallSlider_ValueChanged"/>
 
 	</Grid>
 </Window>
